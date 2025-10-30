@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Maestria data science/Nueva carpeta/4to ciclo/MLOPS/mlops_project/trabajo_mlflow/839316353519930301/6d300ae746fd449eba751945df904f59/artifacts
+end_time: 1761840508912
+entry_point_name: ''
+experiment_id: '839316353519930301'
+lifecycle_stage: active
+run_id: 6d300ae746fd449eba751945df904f59
+run_name: xgboost_local_run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761840500800
+status: 3
+tags: []
+user_id: rodri

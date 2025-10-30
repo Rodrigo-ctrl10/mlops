@@ -7,11 +7,11 @@ import pandas as pd
 from datetime import datetime
 
 # --------- Rutas de entrada/salida ---------
-DATA_DIR   = r"D:\maestria_data_science\nueva_carpeta\cuarto_ciclo\mlops\mlops_project"
+DATA_DIR   = r"D:\maestria_data_science\nueva_carpeta\cuarto_ciclo\mlops\mlops_project\data\processed"
 TRAIN_CSV  = f"{DATA_DIR}/train.csv"
 VALID_CSV  = f"{DATA_DIR}/valid.csv"
 TEST_CSV   = f"{DATA_DIR}/test.csv"
-OUTPUT_DIR = r"D:\maestria_data_science\nueva_carpeta\cuarto_ciclo\mlops\mlops_project\output\data_drift"
+OUTPUT_DIR = r"D:\maestria_data_science\nueva_carpeta\cuarto_ciclo\mlops\mlops_project\output\drift_data"
 
 # (Opcional) modelo entrenado para medir drift de predicción:
 #   - .json (nativo XGBoost)  ó  .pkl (joblib)

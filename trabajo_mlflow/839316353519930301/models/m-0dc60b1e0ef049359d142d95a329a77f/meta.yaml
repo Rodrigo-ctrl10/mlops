@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Maestria data science/Nueva carpeta/4to ciclo/MLOPS/mlops_project/trabajo_mlflow/839316353519930301/models/m-0dc60b1e0ef049359d142d95a329a77f/artifacts
+creation_timestamp: 1761840552261
+experiment_id: '839316353519930301'
+last_updated_timestamp: 1761840557260
+model_id: m-0dc60b1e0ef049359d142d95a329a77f
+model_type: null
+name: model
+source_run_id: 414569a094e0404c8f61019626057702
+status: 2
+status_message: null
