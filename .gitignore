@@ -1,0 +1,9 @@
+# Entorno virtual
+.venv/
+
+# Archivos de caché de Python
+_pycache_/
+*.pyc
+
+# Archivos de MLflow
+mlruns

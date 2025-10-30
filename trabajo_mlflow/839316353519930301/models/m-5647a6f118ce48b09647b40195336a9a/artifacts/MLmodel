@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Maestria data science/Nueva carpeta/4to ciclo/MLOPS/mlops_project/trabajo_mlflow/839316353519930301/models/m-5647a6f118ce48b09647b40195336a9a/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.14
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 3.1.1
+mlflow_version: 3.5.1
+model_id: m-5647a6f118ce48b09647b40195336a9a
+model_size_bytes: 1394294
+model_uuid: m-5647a6f118ce48b09647b40195336a9a
+prompts: null
+run_id: 97d0f97343cf4e8a8ed65d39f5f5fd37
+utc_time_created: '2025-10-27 00:56:02.283085'
