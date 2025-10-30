@@ -1,0 +1,4 @@
+[core]
+    remote = local-storage
+['remote "local-storage"']
+    url = D:/maestria_data_science/nueva_carpeta/cuarto_ciclo/mlops/mi_dvc
