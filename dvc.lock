@@ -1,0 +1,43 @@
+schema: '2.0'
+stages:
+  preprocessed:
+    cmd: python src\preprocessing.py
+    deps:
+    - path: data\raw\Data_CU_venta.csv
+    - path: src\preprocessing.py
+
+    outs:
+    - path: data\processed\test.csv
+    - path: data\processed\train.csv
+    - path: data\processed\valid.csv
+
+  train:
+    cmd: python src\train.py --force
+    deps:
+    - path: data\processed\test.csv
+    - path: data\processed\train.csv
+    - path: data\processed\valid.csv
+    - path: src\train.py
+    outs:
+    - path: models\xgb_model.json
+    - path: models\xgb_model.pkl
+  drift:
+    cmd: python src\monitor_drift.py
+    deps:
+    - path: data\processed\test.csv
+    - path: data\processed\train.csv
+    - path: data\processed\valid.csv
+    - path: src\monitor_drift.py
+    outs:
+    - path: output\drift_data
+  preprocess:
+    cmd: python src\preprocessing.py
+    deps:
+    - path: data\raw\Data_CU_venta.csv
+    - path: src\preprocessing.py
+    outs:
+    - path: data\processed\test.csv
+    - path: data\processed\train.csv
+    - path: data\processed\valid.csv
+      
+      
